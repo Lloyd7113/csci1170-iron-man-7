@@ -2,6 +2,10 @@ This just needs to get added after all the css for main.css
 originally I had it all in the js but it was bulky and got too confusing.
 it was cleaner just to put it here
 
+#drop-menu {
+  display: none;
+}
+
 @media screen and (max-width: 840px) {
   body{
     background-color: #2A5472;
@@ -36,6 +40,7 @@ it was cleaner just to put it here
   }
 
   #drop-menu {
+    display: flex;
     flex: 0;
   }
 
