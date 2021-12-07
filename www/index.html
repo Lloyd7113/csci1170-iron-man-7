@@ -14,3 +14,150 @@ ie :
 and the second change is just a script tag under the footer
 
 <script src="js/main.js"></script>
+
+
+
+
+One more change i forgot
+I had this just between the two closing </section> tags in the homepage contact
+as well as adding the id "message" to the textarea tag
+id="message"
+
+<div id="message-area">
+	<p id="message-box1"></p>
+	<p id="message-box2"></p>
+	<p id="message-box3"></p>
+</div>
+
+
+I will post the full html after I added some stuff to make it clear
+-----------------------------------------------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pollito's: Home</title>
+
+  <!-- Normalize reset stylesheet:
+		Author: Nicolas Gallagher
+		URL: https://necolas.github.io/normalize.css/8.0.1/normalize.css
+		Github URL: https://github.com/necolas/normalize.css/
+		Date accessed: 31 Oct 2021
+	-->
+	<link rel="stylesheet" href="css/normalize.css">
+
+	<!-- Main stylesheet -->
+	<link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<header id="pg-banner">
+  <div id="drop-menu"><img src="img/menu-icon.jpg"></div>
+	<h1 id="main-heading"><a href="index.html"><strong><em>Pollito's Mexican Food!</strong></em></a></h1>
+</header>
+
+<body>
+
+  
+  <nav id="main-nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="order.html">Order</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+  </nav>
+
+  <section id="homepg-deals">
+
+    <div id="deal1" class="deal">
+      <img class="deal-img" src="img/unnamed-6.png" alt="A plate of heavy, delicious tacos.">
+      <p><strong><em>TACO TUESDAYS!</em></strong></br>Get 2 tacos for $7, only on tuesdays!</p>
+    </div>
+
+    <div id="deal2" class="deal">
+      <img class="deal-img" src="img/unnamed-2.png" alt="A plate of heavily-leayered and delicious-looking nachos.">
+      <p><strong><em>HEART DEALSEASE SPECIAL!</em></strong></br>Buy 12 tacos and get a King Taco completely free!</p>
+    </div>
+
+    <div id="deal3" class="deal">
+      <img class="deal-img" src="img/unnamed-3.png" alt="A plate of heavily-leayered and delicious-looking nachos.">
+      <p><strong><em>MEGACHANGA FRIDAYS!</em></strong></br>Double the size of your order of chimichangas for $9, only on Fridays!</p>
+    </div>
+
+  </section>
+
+  <section id="homepg-contact">
+    <h3>Contact</h3>
+    <section id="contact-body">
+      <form id="contact">
+
+        <div id="contact-info">
+          <h4>Burning questions?</h4>
+          <p>Reach us at 1-800-BIG-TACO, or email us below!</p>
+        </div>
+
+        <div id="names">
+          <input id="first-name" type="text" name="first-name" placeholder="First name">
+          <input id="last-name" type="text" name="last-name" placeholder="Last name">
+        </div>
+
+        <div id="email-div">
+          <input id="email" type="text" name="email" placeholder="Email address">
+        </div>
+
+        <div id="textarea-div">
+          <textarea id="message" name="name" rows="8" cols="50" placeholder="Questions, comments, concerns? Type them here!"></textarea>
+        </div>
+
+        <input id="send-btn" type="button" name="send-btn" value="Send!">
+
+      </form>
+    </section>
+    <div id="message-area">
+      <p id="message-box1"></p>
+      <p id="message-box2"></p>
+      <p id="message-box3"></p>
+    </div>
+  </section>
+
+  <section id="homepg-reviews">
+    <h3>Reviews</h3>
+
+    <div id="reviews-body">
+
+      <div id="review1">
+        <h4><em>“The chimichangas here are so good, I became addicted, and now I have dangerously high cholesterol! Thank you, Pollito’s :)"</em></h4>
+        <p>-- Dave, satisfied customer</p>
+      </div>
+
+      <div id="review2">
+        <h4><em>"I once went to use the Pollito’s public bathroom, and after what I saw, I now have to see a therapist once a week…but their tacos are fantastic! Would recommend."</em></h4>
+        <p>-- Janette, satisfied customer</p>
+      </div>
+
+      <div id="review3">
+        <h4><em>“One time, I ordered the Heart Dealsease special and ate it all by myself. When I awoke from my coma, all I could remember was that sweet, delicious Pollito’s taste. A+!”</em></h4>
+        <p>-- Raj, satisfied customer</p>
+      </div>
+    </div>
+
+  </section>
+
+</body>
+
+<footer>
+
+  <div id="footer-text">
+    <p>&copy; 2021, Pollito's Mexican Food. All rights reserved.</p>
+  </div>
+
+  <div id="footer-socials">
+
+  </div>
+
+</footer>
+<script src="js/main.js"></script>
+</html>
