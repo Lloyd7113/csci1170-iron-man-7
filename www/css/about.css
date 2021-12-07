@@ -1,0 +1,37 @@
+* {
+    background-color: #86BBD8;
+    text-align: center;
+    color: #2F4858;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+ul {
+    display: flex;
+    margin: auto;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 350px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    gap: 200px;
+}
+
+#first-main-section {
+    margin-bottom: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#footer-contact-info {
+    float: left;
+    margin-left: 25%;
+}
+
+#footer-socials {
+    float: right;
+    margin-right: 25%;
+}
