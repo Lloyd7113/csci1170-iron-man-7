@@ -17,39 +17,61 @@
 	<!-- Main stylesheet -->
 	<link rel="stylesheet" href="css/main.css">
 
-  <h1>Pollito's Mexican Food</h1>
-
 </head>
+
+<header id="pg-banner">
+		<h1 id="main-heading"><a href="index.html">Pollito's Mexican Food</a></h1>
+</header>
 
 <body>
 
   <nav id="main-nav">
     <ul>
-      <li><a href="index.html"></a>Home</li>
-      <li><a href="menu.html"></a>Menu</li>
-      <li><a href="order.html"></a>Order</li>
-      <li><a href="about.html"></a>About</li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="order.html">Order</a></li>
+      <li><a href="about.html">About</a></li>
     </ul>
   </nav>
 
   <section id="homepg-deals">
 
     <div id="deal1" class="deal">
-
+      <img class="deal-img" src="img/unnamed-4.png" alt="A plate of heavily-leayered and delicious-looking nachos.">
     </div>
 
     <div id="deal2" class="deal">
-
+      <img class="deal-img" src="img/unnamed-2.png" alt="A plate of heavily-leayered and delicious-looking nachos.">
     </div>
 
     <div id="deal3" class="deal">
-
+      <img class="deal-img" src="img/unnamed-3.png" alt="A plate of heavily-leayered and delicious-looking nachos.">
     </div>
 
   </section>
 
   <section id="homepg-contact">
     <h3>Contact</h3>
+    <section id="contact-body">
+      <form id="contact">
+
+        <div id="names">
+          <input id="first-name" type="text" name="first-name" placeholder="First name">
+          <input id="last-name" type="text" name="last-name" placeholder="Last name">
+        </div>
+
+        <div id="email-div">
+          <input id="email" type="text" name="email" placeholder="Email address">
+        </div>
+
+        <div id="textarea-div">
+          <textarea name="name" rows="8" cols="50" placeholder="Questions, comments, concerns? Type them here!"></textarea>
+        </div>
+
+        <input id="send-btn" type="button" name="send-btn" value="Send!">
+
+      </form>
+    </section>
   </section>
 
   <section id="homepg-reviews">

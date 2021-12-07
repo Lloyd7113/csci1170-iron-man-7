@@ -1,29 +1,135 @@
 /* HOME PAGE */
+/*-----------------------*/
+
+*{
+  font-family: sans-serif;
+}
+
+h3{
+  color: #F6AE2D;
+}
+
+header{
+  text-align: center;
+  color: #F6AE2D;
+  margin: none;
+  height: 8vh;
+  padding: none;
+  justify-content: center;
+}
+
+header a{
+  text-decoration: none;
+  color: #F6AE2D
+}
+
+/* Nav */
 
 #main-nav{
   margin: auto;
   display: flex;
-  justify-content: flex-start;
-  background-color: lightgray;
+  justify-content: center;
+  background-color: #86BBD8;
 }
 
-#main-nav>ul{
+
+#main-nav ul{
+  text-align: center;
+  float: none;
+  position: relative;
   list-style-type: none;
   display: inline-flex;
   margin-right: 15px;
 }
 
-#main-nav>ul>li{
+#main-nav ul li{
+  display: inline;
   padding-left: 5px;
   padding-right: 5px;
 }
 
-#main-nav>ul>li>a{
-  color: dimgrey;
+#main-nav ul li a{
+  color: #2F4858;
   text-decoration: none;
   font-weight: bold;
 }
 
 #main-nav>ul>li>a:hover{
   color: gold;
+}
+
+/* Body */
+
+body{
+  background-color: #2A5472;
+  width: 80vw;
+  margin-left: 10vw;
+  justify-content: center;
+}
+
+#homepg-deals{
+  display: inline-flex;
+  justify-content: center;
+}
+
+.deal-img{
+  width: 26vw;
+  height: 30vh;
+  padding: 5px;
+
+}
+
+#homepg-contact{
+  justify-content: center;
+  text-align: center;
+  height: 55vh;
+  background-color: #33658A;
+}
+
+#homepg-contact h3{
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#contact-body{
+  background-color: #86BBD8;
+  margin: auto;
+  width: 90%;
+  height: 80%;
+}
+
+#contact{
+  margin: auto;
+  padding-top: 15px;
+  display: table;
+}
+
+#contact div{
+  padding-bottom: 15px;
+}
+
+#send-btn{
+  width: 50%;
+  background-color: #2A5472;
+  color: #F6AE2D;
+}
+
+#homepg-reviews{
+  justify-content: center;
+  text-align: center;
+  height: 50vh;
+  background-color: #33658A;
+}
+
+#homepg-reviews{
+  
+}
+
+footer{
+  font-weight: bold;
+  margin: auto;
+  padding-left: 2%;
+  background-color: #F26419;
+  height: 5vh;
 }
