@@ -1,9 +1,9 @@
 /*toggle for primary nav*/
-document.getElementById("nav-opener").onclick = function() {
-    var pNav = document.getElementById("dropdown");
-    if (pNav.style.display == "none") {
-        pNav.style.display = "flex";
+document.getElementById("drop-menu").onclick = function() {
+    var mNav = document.getElementById("main-nav");
+    if (mNav.style.display == "none") {
+        mNav.style.display = "flex";
     }else {
-        pNav.style.display = "none";
+        mNav.style.display = "none";
     }
 }
