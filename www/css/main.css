@@ -1,49 +1,45 @@
-/*new to github so I hope this being on my branch means you can't see this 
-if you can then just delete it, I needed something to work on for my js*/
-html {
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-body {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-}
+This just needs to get added after all the css for main.css
+originally I had it all in the js but it was bulky and got too confusing.
+it was cleaner just to put it here
 
-/*header styling*/
-#h1-plus-hamburger {
+@media screen and (max-width: 840px) {
+  body{
+    background-color: #2A5472;
+    width: 100vw;
+    margin-left: 0vw;
+  }
+
+  #main-nav {
+    display: none;
+    flex-direction: column;
+  }
+
+  #main-nav ul{
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  #main-nav ul li a {
+    margin: 0.75em 0 0.75em 40%;
+  }
+
+  header {
     display: flex;
     flex-direction: row;
     margin: 0;
-}
-#dropdown {
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-}
+  }
 
-h1 {
-    text-align: center;
+  header h1 {
     flex: 1;
-    margin: 0;
-    padding: 1em 0 0;
-}
-#nav-opener {
+  }
+
+  #drop-menu {
     flex: 0;
-}
-#nav-opener img {
-    width: 150px;
-}
-nav ul {
-    list-style-type: none;
-    text-align: right;
-    margin: 0;
-    padding: 0;
-}
-nav a {
-    text-decoration: none;
-    padding: 0 3em 0 0;
-}
-#dropdown {
-    display: none;
+  }
+
+  #drop-menu img {
+    width: 100px;
+  }
 }
