@@ -43,6 +43,11 @@ it was cleaner just to put it here
     display: flex;
     flex: 0;
   }
+  
+  #drop-menu:hover,
+  #drop-menu:active {
+    cursor: pointer;
+  }
 
   #drop-menu img {
     height: 8vh;
