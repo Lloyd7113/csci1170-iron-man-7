@@ -1,0 +1,42 @@
+/* Borui Xie */
+
+:root{
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-size: large;
+}
+header a:hover{color: yellow;}
+header{
+    background-color: salmon;
+    color: white;
+    height: 250px;
+}
+header h1,h4{text-align: center;}
+body{
+    background-color: lightyellow;
+}
+body p {
+    color: brown;
+}
+h2{
+    background-color: darkseagreen;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+h4{
+    font-size: larger;
+    color: darkgreen;
+}
+nav li{
+    display: inline-block;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+nav{text-align: center;
+    padding-top: 50px;
+}
+nav a {
+    text-decoration: none;
+    color: rebeccapurple;
+    font-weight: bold;
+}
