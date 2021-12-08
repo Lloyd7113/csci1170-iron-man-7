@@ -1,3 +1,4 @@
+
 /* Borui Xie */
 
 :root{
@@ -39,4 +40,56 @@ nav a {
     text-decoration: none;
     color: rebeccapurple;
     font-weight: bold;
+}
+
+#drop-menu {
+  display: none;
+}
+
+@media screen and (max-width: 840px) {
+  body{
+    background-color: #2A5472;
+    width: 100vw;
+    margin-left: 0vw;
+  }
+
+  #main-nav {
+    display: none;
+    flex-direction: column;
+  }
+
+  #main-nav ul{
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  #main-nav ul li a {
+    margin: 0.75em 0 0.75em 40%;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+  }
+
+  header h1 {
+    flex: 1;
+  }
+
+  #drop-menu {
+    display: flex;
+    flex: 0;
+  }
+
+  #drop-menu:hover,
+  #drop-menu:active {
+    cursor: pointer;
+  }
+
+  #drop-menu img {
+    height: 8vh;
+  }
 }
