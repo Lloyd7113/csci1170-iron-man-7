@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
 let orderButton = document.getElementById("place-order")
 orderButton.addEventListener("click", submit)
 
@@ -17,7 +14,7 @@ function submit(){
 
     let nullCount = 0
     for(let conKey in content){
-	
+
 	if(content[conKey].length == 0){
 	    nullCount++
         }
@@ -54,7 +51,7 @@ function submit(){
 	console.log("Invalid entry!")
 	console.log(content)
     }
-    
+
     function verifyInput(contentKey){
 
         let menuItems = {
@@ -70,19 +67,18 @@ function submit(){
         }
 
         let isMenuItem = false
-    
+
         for(key in menuItems){
 
             if(content[contentKey] == menuItems[key]){
                 isMenuItem = true
-            }	
+            }
         }
 
         return isMenuItem
     }
 }
->>>>>>> peter-altenkirk
-=======
+
 /*toggle for primary nav*/
 document.getElementById("drop-menu").onclick = function() {
     var mNav = document.getElementById("main-nav");
@@ -107,4 +103,3 @@ contactButton.onclick = function() {
     messageArea2.innerHTML = "Email: " + email;
     messageArea3.innerHTML = "Message: " + message;
 }
->>>>>>> tyson-semchyshen
