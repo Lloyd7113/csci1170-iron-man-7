@@ -6,37 +6,54 @@
     margin-right: 10vw;
     font-size: large;
 }
-header a:hover{color: yellow;}
-header{
+
+.menu-order-header a:hover{color: yellow;}
+
+.menu-order-header{
     background-color: salmon;
     color: white;
     height: 250px;
 }
-header h1,h4{text-align: center;}
-body{
+
+.menu-order-header h1,h4{text-align: center;}
+
+.menu-order-body{
     background-color: lightyellow;
 }
-body p {
+
+.menu-order-body p {
     color: brown;
 }
-h2{
+
+.item-name{
     background-color: darkseagreen;
     padding-bottom: 20px;
     padding-top: 20px;
 }
-h4{
+
+/*
+
+I couldn't find any h4 elements on the order or menu pages
+when running through to polish things off, so this is commented out
+for now.
+
+.menu-order-h4{
     font-size: larger;
     color: darkgreen;
 }
-nav li{
+*/
+
+#menu-order-nav li{
     display: inline-block;
     justify-content: space-between;
     padding-right: 15px;
 }
-nav{text-align: center;
+
+#menu-order-nav{text-align: center;
     padding-top: 50px;
 }
-nav a {
+
+#menu-order-nav a {
     text-decoration: none;
     color: rebeccapurple;
     font-weight: bold;
@@ -47,7 +64,7 @@ nav a {
 }
 
 @media screen and (max-width: 840px) {
-  body{
+  .menu-order-body{
     background-color: #2A5472;
     width: 100vw;
     margin-left: 0vw;
@@ -69,13 +86,13 @@ nav a {
     margin: 0.75em 0 0.75em 40%;
   }
 
-  header {
+  .menu-order-header {
     display: flex;
     flex-direction: row;
     margin: 0;
   }
 
-  header h1 {
+  .menu-order-header h1 {
     flex: 1;
   }
 
@@ -92,4 +109,172 @@ nav a {
   #drop-menu img {
     height: 8vh;
   }
+}
+
+
+
+/* ADRIAN LLOYD, HOME PAGE */
+/*-----------------------*/
+
+
+
+*{
+  font-family: sans-serif;
+}
+
+.homepg-h3{
+  color: #F6AE2D;
+}
+
+#homepg-header{
+  text-align: center;
+  color: #F6AE2D;
+  margin: none;
+  height: 8vh;
+  padding: none;
+  justify-content: center;
+}
+
+#homepg-header a{
+  text-decoration: none;
+  color: #F6AE2D;
+}
+
+/* Nav */
+
+#main-nav{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  background-color: #86BBD8;
+}
+
+
+#main-nav ul{
+  text-align: center;
+  float: none;
+  position: relative;
+  list-style-type: none;
+  display: inline-flex;
+  margin-right: 15px;
+}
+
+#main-nav ul li{
+  display: inline;
+  height: 100%;
+}
+
+#main-nav ul li a{
+  color: #2F4858;
+  text-decoration: none;
+  font-weight: bold;
+  width: 20vw;
+  height: 100%;
+  display: block;
+}
+
+#main-nav>ul>li>a:hover{
+  color: gold;
+}
+
+/* Body */
+
+#homepg-body{
+  background-color: #2A5472;
+  width: 80vw;
+  justify-content: center;
+}
+
+#homepg-deals{
+  display: inline-flex;
+  justify-content: center;
+  background-color: #2F4858;
+}
+
+#homepg-deals > div > p{
+  text-align: center;
+  color: white;
+}
+
+.deal-img{
+  width: 26vw;
+  height: 30vh;
+  padding: 5px;
+
+}
+
+#homepg-contact{
+  justify-content: center;
+  text-align: center;
+  height: 65vh;
+  background-color: #33658A;
+}
+
+#homepg-contact h3{
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#contact-body{
+  background-color: #86BBD8;
+  margin: auto;
+  width: 90%;
+  height: 80%;
+  text-align: center;
+}
+
+#contact{
+  margin: auto;
+  padding-top: 20px;
+  display: table;
+}
+
+#contact div{
+  padding-bottom: 15px;
+}
+
+#send-btn{
+  width: 50%;
+  background-color: #2A5472;
+  color: #F6AE2D;
+}
+
+#homepg-reviews{
+  margin-top: 5px;
+  justify-content: center;
+  text-align: center;
+  height: 60vh;
+  background-color: #33658A;
+
+}
+
+#homepg-reviews h3{
+  margin: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+#reviews-body{
+  background-color: #86BBD8;
+  margin: auto;
+  width: 90%;
+  height: 80%;
+}
+
+#reviews-body div{
+  padding-left: 10px;
+  padding-right: 10px;
+  border-top-style: solid;
+  padding-top: 15px;
+}
+
+#homepg-footer{
+  justify-content: center;
+  display: inline-flex;
+  color: #F6AE2D;
+  margin: none;
+  height: 6vh;
+  padding: none;
+  justify-content: center;
 }
